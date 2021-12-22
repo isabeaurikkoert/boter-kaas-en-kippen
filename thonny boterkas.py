@@ -12,8 +12,8 @@ class MyAgent(MLAgent):
         else:
             reward = 0
         return reward
-    
-    
+print("Kies wat je wilt doen \n 1 train de computer \n 2 speel tegen de computer \n 3 speel tegen een vriend \n 4 plot een validatie grafiek")
+    choice = input
 random.seed(1)
  
 my_agent = MyAgent()
